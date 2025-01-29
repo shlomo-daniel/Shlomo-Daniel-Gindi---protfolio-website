@@ -22,6 +22,8 @@ nav {
     rgb(0, 32, 255) 100%
   );
 
+  transition: transform 0.3s ease-in-out;
+
   .nav_pic_and_myName {
     display: flex;
     align-items: center;
@@ -79,6 +81,10 @@ nav {
   a:hover {
     color: $strong-color;
   }
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
 }
 
 // hero section
